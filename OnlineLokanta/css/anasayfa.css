@@ -1,0 +1,88 @@
+﻿/* CSS Document */
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    background-image: url(../img/anasayfa.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#container {
+    width: 90%;
+    height: auto;
+    margin: 0px auto;
+}
+#header {
+    height: 20%;
+    width: 100%;
+    margin: 0 auto;
+    color:#000000;
+
+}
+#nav {
+    height: 20%;
+    width: 90%;
+    margin: 0 auto;
+}
+.menu {
+    padding-left:10%;
+    height: 20%;
+    width: 100%;
+    margin: 0 auto;
+    background-color: green;
+}
+.menu a {
+        float: left;
+        margin-left: 5%;
+        margin-top: 0%;
+        padding-left: 1%;
+        padding-right: 1%;
+        width: auto;
+        height: 70PX;
+        line-height: 70px;
+        text-align: center;
+        font-family: 'Segoe Print';
+        font-size: 15px;
+        color: white;
+        font-weight: bold;
+    }
+.menu a:hover {
+        -moz-box-shadow: 0 0 10px #FFF;
+        -webkit-box-shadow: 0 0 10px #FFF;
+        box-shadow: 0 0 10px #FFF;
+        color: yellow;
+    }
+.menu a img{
+    width:100%;
+    height:100%;
+}
+#content {
+    margin-left: 50px;
+}
+#footer {
+    height: 20%;
+    width: 100%;
+    margin: 0 auto;
+    background-color: red;
+}
+
+#header a {
+    font-family: 'Segoe Print';
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    text-decoration:none;
+}
+#header a:hover {
+        color: yellow;
+    }
+#header p {
+    margin-left: 80%;
+ }
+
+.pnlUye {
+    color: black;
+    background-color: goldenrod;
+}
