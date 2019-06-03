@@ -32,8 +32,9 @@
                         </a>
                         <a href="../pages/index.aspx">ANASAYFA</a>
                         <a href="#">YEMEKLER</a>
-                        <a href="#">LOKANTALAR</a>
+                        
                         <a href="#">REZERVASYONLAR</a>
+                        <a href="../pages/profil.aspx">PROFİL</a>
                     </div>
                 </div>
                 <div id="content">

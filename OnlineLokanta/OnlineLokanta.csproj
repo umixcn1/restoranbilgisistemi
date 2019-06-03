@@ -80,6 +80,7 @@
     <Content Include="pages\index.aspx" />
     <Content Include="pages\uyeGiris.aspx" />
     <Content Include="pages\uyeKayit.aspx" />
+    <Content Include="pages\profil.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -110,6 +111,13 @@
     </Compile>
     <Compile Include="pages\uyeKayit.aspx.designer.cs">
       <DependentUpon>uyeKayit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\profil.aspx.cs">
+      <DependentUpon>profil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\profil.aspx.designer.cs">
+      <DependentUpon>profil.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
