@@ -78,6 +78,7 @@
     <Content Include="img\urun_resimleri\ayran.jpg" />
     <Content Include="img\urun_resimleri\kola.jpg" />
     <Content Include="pages\index.aspx" />
+    <Content Include="pages\siparis.aspx" />
     <Content Include="pages\uyeGiris.aspx" />
     <Content Include="pages\uyeKayit.aspx" />
     <Content Include="pages\profil.aspx" />
@@ -97,6 +98,13 @@
     </Compile>
     <Compile Include="pages\index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pages\siparis.aspx.cs">
+      <DependentUpon>siparis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\siparis.aspx.designer.cs">
+      <DependentUpon>siparis.aspx</DependentUpon>
     </Compile>
     <Compile Include="pages\uyeGiris.aspx.cs">
       <DependentUpon>uyeGiris.aspx</DependentUpon>
