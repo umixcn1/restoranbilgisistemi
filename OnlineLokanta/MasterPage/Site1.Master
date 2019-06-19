@@ -8,6 +8,8 @@
      <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>   
     <link href="../css/anasayfa.css" rel="stylesheet" />
+
+
 </head>
 <body>
     <form id="form1" runat="server">

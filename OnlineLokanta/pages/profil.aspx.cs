@@ -9,8 +9,22 @@ namespace OnlineLokanta.pages
 {
     public partial class WebService1 : System.Web.UI.Page
     {
+        protected void DataList1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+           
+        }
+
+        protected void SubmitButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void UserName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
         //protected void Page_Load(object sender, EventArgs e)
-      //  {
+        //  {
 
         //}
     }
