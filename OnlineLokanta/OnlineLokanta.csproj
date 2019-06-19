@@ -83,6 +83,7 @@
     <Content Include="img\urun_resimleri\kebap.jpg" />
     <Content Include="img\urun_resimleri\ayran.jpg" />
     <Content Include="img\urun_resimleri\kola.jpg" />
+    <Content Include="pages\adisyon.aspx" />
     <Content Include="pages\index.aspx" />
     <Content Include="pages\siparis.aspx" />
     <Content Include="pages\uyeGiris.aspx" />
@@ -98,6 +99,13 @@
     </Compile>
     <Compile Include="MasterPage\Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="pages\adisyon.aspx.cs">
+      <DependentUpon>adisyon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\adisyon.aspx.designer.cs">
+      <DependentUpon>adisyon.aspx</DependentUpon>
     </Compile>
     <Compile Include="pages\index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>

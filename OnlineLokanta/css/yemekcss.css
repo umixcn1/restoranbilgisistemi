@@ -1,5 +1,36 @@
-﻿body {
+﻿.icecek{
+    position:relative;
+ right:50px;   
+ 
 }
-#crbbtn{
+.corba{
+    
+    position:absolute;
+    right:700px;
+    top:240px;
     width:100px;
+   
+}
+.corbalar {
+    position:absolute;
+    right:700px;
+    top:670px;
+    width:150px;
+}
+.anamenuler {
+    position: absolute;
+    right: 700px;
+    top: 1100px;
+    width: 150px;
+}
+.ttlcet {
+    position: absolute;
+    right: 700px;
+    top: 1600px;
+    width: 150px;
+}
+.adisyon{
+    position:absolute;
+    right: 30%;
+    
 }
