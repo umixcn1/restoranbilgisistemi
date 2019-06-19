@@ -4,11 +4,14 @@
 
 <html>
 <head runat="server">
-    <title>Anasayfa</title>
+    <title>Anasayfa
+     
+    </title>
     <link href="../css/yemekcss.css" rel="stylesheet" />
      <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>   
     <link href="../css/anasayfa.css" rel="stylesheet" />
+    <link href="../css/yemekcss.css" rel="stylesheet" />
 </head>
 <body>
     <form id="form1" runat="server">

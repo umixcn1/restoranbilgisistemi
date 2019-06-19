@@ -76,7 +76,7 @@
         <td class="auto-style3"></td>
         <td class="auto-style4">
             <asp:Button ID="ymkbtn" runat="server" BackColor="Red" BorderColor="#CCFF33" Text="Yemek Sayfasına Git" Width="238px" CssClass="auto-style5" />
-            <asp:Button ID="yerat" runat="server" BackColor="Lime" BorderColor="Red" BorderStyle="Solid" Text="Yer Ayırt:" Width="142px" />
+            <asp:Button ID="yerat" runat="server" BackColor="Lime" BorderColor="Red" BorderStyle="Solid" Text="Yer Ayırt:" Width="142px" OnClick="yerat_Click" />
         </td>
     </tr>
 </table>
