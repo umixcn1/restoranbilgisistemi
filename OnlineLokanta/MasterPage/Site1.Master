@@ -31,9 +31,9 @@
                             <img class="logoresim" src="../img/logo.png" alt="Alternate Text" />
                         </a>
                         <a href="../pages/index.aspx">ANASAYFA</a>
-                        <a href="#">YEMEKLER</a>
+                        <a href="../pages/yemekler.aspx">YEMEKLER</a>
                         
-                        <a href="#">REZERVASYONLAR</a>
+                        <a href="../pages/siparis.aspx">REZERVASYONLAR</a>
                         <a href="../pages/profil.aspx">PROFİL</a>
                     </div>
                 </div>
