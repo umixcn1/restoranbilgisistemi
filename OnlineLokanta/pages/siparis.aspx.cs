@@ -25,12 +25,13 @@ namespace OnlineLokanta.pages
         protected void yerat_Click(object sender, EventArgs e)
         {
             SqlConnection conn = new SqlConnection(connStr);
-            SqlCommand cmd = new SqlCommand("insert into tblrezervasyon values(@kisiID,satisID,@tarihsaat,@masaTercihi)", conn);
-            cmd.Parameters.AddWithValue("@kisiID", TextBox1.Text);
-            cmd.Parameters.AddWithValue("@satisID", TextBox2.Text);
+            SqlCommand cmd = new SqlCommand("insert Table values(@kisiAdi,@kisiSayi,@tarihSec,@saatSec,@masaSec)", conn);
+            cmd.Parameters.AddWithValue("@kisiAdi", TextBox1.Text);
+            cmd.Parameters.AddWithValue("@kisiSayi", TextBox2.Text);
 
-            cmd.Parameters.AddWithValue("@tarihsaat", Calendar1.SelectedDate);
-            cmd.Parameters.AddWithValue("@masaTercihi", RadioButtonList1.SelectedItem);
+            cmd.Parameters.AddWithValue("@tarihSec", Calendar1.SelectedDate);
+            cmd.Parameters.AddWithValue("@saatSec", DropDownList1.SelectedValue);
+            cmd.Parameters.AddWithValue("masaSec", RadioButtonList1.SelectedValue);
             conn.Open();
             cmd.ExecuteNonQuery();
             conn.Close();
